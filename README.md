@@ -73,3 +73,8 @@ Live incident response system managed by the Davis AI engine. The panel captures
 * **Proactive Security:** Maintained continuous compliance audits across host resources without exposing critical internal components.
 * **Cost Governance:** Mapped memory behavior and network data payloads over time to facilitate intelligent compute rightsizing and save organizational cloud budgets.
 * **Business Resiliency:** Accelerated debugging speeds from hours to seconds by transforming raw infrastructure logs into rich, actionable, and visual business intelligence graphs.
+
+---
+
+Developed & Documented with 🛠️ by Rohan | Cloud & Infrastructure Engineer
+-
