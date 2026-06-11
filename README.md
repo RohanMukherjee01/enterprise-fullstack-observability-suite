@@ -25,11 +25,11 @@ Live topological view of the infrastructure layer. It displays automated discove
 ### Module 2: Application Performance Monitoring (APM) & Service Health
 
 #### Service Health Cockpit
-![Service Health Overview](project2b.jpg)
+![Service Health Overview](project2b.png)
 High-level executive dashboard tracking the overall service health architecture. The panel flags critical application failure boundaries and sudden spikes in server workload behaviors.
 
 #### Golden Signals Technical Dashboard
-![Node.js App Health](project3.jpg)
+![Node.js App Health](project3.png)
 Dedicated APM dashboard for the instrumented Node.js application. It captures the four golden signals: response times, operational throughput, active HTTP error rates, and the 100% threshold boundary for failure spikes.
 
 #### Post-Incident Application Baselining
@@ -49,11 +49,11 @@ Granular exploratory view of distributed transactions. This interface maps micro
 Deep dive into microservice execution tracks. It isolates end-to-end duration spans down to microsecond limits, verifying code-level bottlenecks across backend components.
 
 #### Critical HTTP 500 Error Footprints
-![Error Ingestion Logs](project3c.jpg)
+![Error Ingestion Logs](project3c.png)
 Granular error diagnostics dashboard capturing active runtime crashes. It documents failed transaction logs pinpointing continuous HTTP 500 Server Errors triggered on the specific /fail endpoint.
 
 #### End-to-End Service Flow Tree
-![Service Flow Mapping](project3a.jpg)
+![Service Flow Mapping](project3a.png)
 Automated service flow graph visualizing structural request paths. It tracks transaction propagation from user endpoints, detailing exactly how much request time contribution goes into unmonitored external calls versus core code execution.
 
 #### Service Explorer Metrics
