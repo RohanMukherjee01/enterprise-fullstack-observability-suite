@@ -1,28 +1,3 @@
-# Enterprise-Grade Full-Stack Observability Suite — Powered by Dynatrace
-
-A comprehensive, production-ready Observability architecture designed to deliver end-to-end visibility across hybrid cloud infrastructure, application tiers, and network layers. This project leverages Dynatrace OneAgent and Davis AI to monitor node health, optimize application performance (APM), track distributed transactions, and reduce MTTR via automated root-cause detection.
-
----
-
-## Architecture Modules & Key Implementations
-
-### 1. Hybrid Infrastructure Monitoring (Core Layer)
-* Deployed and automated Dynatrace OneAgent across Linux environments (ROHAN) for zero-configuration metric ingestion.
-* Designed enterprise cockpits tracking continuous health indicators: CPU Load, Memory Profiling (6.64 GB state), Storage Volumes, and Network NIC throughput.
-
-### 2. Application Performance Monitoring (APM Tier)
-* Configured deep-tier APM for a production-grade Node.js Microservice (rohan-mukherjee).
-* Built real-time charts capturing critical application metrics: Response Time (ms), Request Throughput, and Failure Rates (100% boundary monitoring).
-
-### 3. Distributed Tracing & Chaos/Error Engineering
-* Utilized Distributed Tracing (Spans & Histograms) to isolate end-to-end code execution paths and track synchronous/asynchronous invocations.
-* Investigated runtime anomalies, specifically tracing HTTP 500 Server Errors and failed endpoint operations (/fail) down to the exact millisecond timestamps.
-* Visualized request routing structures using automated Service Topology trees to track upstream/downstream payload distribution.
-
-### 4. AI-Driven Incident Management & Autonomous Root-Cause
-* Integrated Dynatrace’s proprietary Davis AI engine for intelligent, baseline-driven anomaly detection to prevent alert fatigue.
-* Simulated infrastructure failures and audited active incident ticketings (e.g., Problem P-260312: Failure rate increase), tracking mean-time-to-resolution (MTTR) under real-world pressure constraints.
-
 ---
 
 ## Step-by-Step Technical Insights & Visual Proof of Work
