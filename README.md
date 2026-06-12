@@ -1,5 +1,5 @@
 
-## Enterprise Observability Suite: Automated Root-Cause Analysis and APM Deployment
+# Dynatrace Enterprise Observability Suite: Automated Root-Cause Analysis and APM Deployment
 
 ### Module 1: Core Infrastructure Performance & Node Health
 
